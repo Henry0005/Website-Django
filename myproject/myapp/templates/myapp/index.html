@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2590d3;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #2590d3;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input[type="text"],
+        form input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2590d3;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #1a6a99;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site</h1>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#services">Serviços</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Contato</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Início</h2>
+    <p>Este é um site de exemplo que contém seções de serviços, uma galeria e um formulário de contato.</p>
+</section>
+
+<section id="services">
+    <h2>Serviços</h2>
+    <ul>
+        <li>Cibersegurança</li>
+        <li>Monitorização, detecção, resposta e gestão de incidentes de segurança</li>
+        <li>Segurança de Redes</li>
+        <li>Segurança de aplicações</li>
+    </ul>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Galeria</h2>
+    <img src="https://i.imgur.com/pprLeQm.jpg" alt="Imagem 1">
+    <img src="https://imgur.com/2biqt6r.png" alt="Imagem 2">
+    <img src="https://imgur.com/OOCXkNT.png" alt="Imagem 3">
+</section>
+
+<section id="contact">
+    <h2>Contato</h2>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    <a href="https://www.linkedin.com/in/henrique-ribeiro-a0173b232/" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/henry0005" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+</footer>
+
+</body>
+</html>
