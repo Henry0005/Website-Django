@@ -1,4 +1,4 @@
-# Meu Site em Django
+# Meu Site utilizando Django
 
 ## Descrição
 Um site exemplo criado com Django que possui funcionalidades como seções de serviços, uma galeria e um formulário de contato
