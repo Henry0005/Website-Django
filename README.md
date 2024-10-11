@@ -10,14 +10,15 @@ Um site exemplo criado com Django que possui funcionalidades como seções de se
 
 ## Instalação
 ```bash
-git clone <url-do-repositorio>
-cd <nome-do-projeto>
+git clone https://github.com/Henry0005/Website-usando-Django
+cd myproject
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
 venv\Scripts\activate  # Para Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
 ## Uso
 Acesse http://127.0.0.1:8000/
