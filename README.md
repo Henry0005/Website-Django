@@ -22,4 +22,5 @@ python manage.py runserver
 
 ## Uso
 Após instalar e iniciar o servidor
+
 Acesse http://127.0.0.1:8000/
