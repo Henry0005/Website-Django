@@ -10,7 +10,7 @@ Um site exemplo criado com Django que possui funcionalidades como seções de se
 
 ## Instalação
 ```bash
-git clone https://github.com/Henry0005/Website-usando-Django
+git clone https://github.com/Henry0005/Website-Django
 cd myproject
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
